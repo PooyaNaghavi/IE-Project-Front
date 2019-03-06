@@ -53,6 +53,7 @@ body {
     border-radius: 8px;
     border: 8px solid #f1fcfc;
     /* margin-top: -15vh; */
+    box-shadow: 0px 2px #C0C0C0;
     z-index: 3;
     margin-left: 16px;
 }
@@ -100,7 +101,7 @@ body {
     direction: ltr;
     padding: 4px;
     border-radius: 4px;
-    box-shadow: 2px;
+    box-shadow: 0px 2px #CBCBCB;
     white-space: nowrap;
 }
 
