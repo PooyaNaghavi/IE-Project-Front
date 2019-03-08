@@ -1,0 +1,126 @@
+body {
+  font-family: IRANSans;
+  text-align: center;
+}
+
+#slideshow {
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.slide-wrapper {
+  width: 500vw;
+  height: 100vh;
+  animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slide:nth-child(1) {
+    background-image: url(/assets/pics/slideshow1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.slide:nth-child(2) {
+    background-image: url(/assets/pics/slideshow2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.slide:nth-child(3) {
+    background-image: url(/assets/pics/slideshow3.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.slide:nth-child(4) {
+    background-image: url(/assets/pics/slideshow4.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.slide:nth-child(5) {
+    background-image: url(/assets/pics/slideshow5.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@-webkit-keyframes slide {
+  10% {margin-left: 0%;}
+  30% {margin-left: -100%;}
+  50% {margin-left: -200%;}
+  70% {margin-left: -300%;}
+  90% {margin-left: -400%;}
+}
+  
+.register-form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    max-width: 480px;
+    direction: rtl;
+  }
+  
+  .header {
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+  
+.box-style{
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #4bc970;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #3ac162;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
+  
+  .number {
+    background-color: #5fcf80;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+  }
