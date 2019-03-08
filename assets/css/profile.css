@@ -22,8 +22,8 @@ body {
 }
 
 .header-item {
-    padding-right: 24px;
-    font-size: 13px;
+    padding-right: 32px;
+    font-size: 16px;
 }
 
 .logo {
@@ -41,9 +41,9 @@ body {
 
 .blue-background {
     background-color: #b9eff2;
-    min-height: 120px;
+    min-height: 150px;
     z-index: 2;
-    margin-bottom: -70px;
+    margin-bottom: -95px;
     -moz-box-shadow: inset 0 0 4px rgb(86, 188, 194);
     -webkit-box-shadow: inset 0 0 4px rgb(86, 188, 194);
     box-shadow: inset 0 0 4px rgb(86, 188, 194);
@@ -51,8 +51,8 @@ body {
 }
 
 #profile-pic {
-    width: 140px;
-    height: 140px;
+    width: 190px;
+    height: 190px;
     border-radius: 16px;
     border: 8px solid #f1fcfcdf;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
@@ -68,22 +68,23 @@ body {
 }
 
 #profile-name{
-    font-size: 26px;
+    font-size: 32px;
     font-weight: bold;
     color: rgb(71, 71, 71);
     
 }
 
 #job-title{
-    font-size: 13px;
+    font-size: 16px;
     color: rgb(114, 114, 114);
 }
 
 #bio-text {
     text-align: justify;
-    font-size: 13px;
+    font-size: 16px;
     color: rgb(70, 70, 70);
     margin-bottom: 24px;
+    line-height: 32px;
 }
 
 
@@ -103,7 +104,7 @@ body {
     background-color: #ffffff;
     margin-right: 12px;
     direction: ltr;
-    padding: 4px;
+    padding: 6px;
     border-radius: 4px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     white-space: nowrap;
@@ -114,23 +115,26 @@ body {
 }
 
 .skill-text {
-    font-size: 13px;
+    font-size: 16px;
+    margin-right: 4px; 
 }
 
 .skill-button {
     background-color: rgb(103, 182, 42); /* Green */
     color: white;
     border: none;
-    border-radius: 2px;
+    border-radius: 4px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 13px;
+    font-size: 16px;
+    width: 28px;
+    height: 28px;
 }
 
 .skill-button > span {
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     text-decoration: none;
 }
@@ -146,6 +150,7 @@ body {
 
 .skill-button.not-endorsed:hover:before {
     content: '+';
+    font-size: 14px;
 }
 
 .footer-color {
@@ -165,7 +170,7 @@ body {
 }
 
 .footer-text {
-    font-size: 13px;
+    font-size: 16px;
     color: #808080;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0);
 
@@ -180,7 +185,7 @@ body {
     margin: 0;
     padding: 0;
     max-width: unset;
-    min-height: calc(100vh - 60px - 65px - 50px)
+    min-height: calc(100vh - 60px - 65px - 55px)
 }
 
 .background-fill{
