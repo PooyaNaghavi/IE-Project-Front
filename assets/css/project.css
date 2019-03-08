@@ -1,8 +1,8 @@
 .blue-background {
     background-color: #b9eff2;
-    min-height: 150px;
+    min-height: 100px;
     z-index: 2;
-    margin-bottom: -95px;
+    margin-bottom: -50px;
     -moz-box-shadow: inset 0 0 4px rgb(86, 188, 194);
     -webkit-box-shadow: inset 0 0 4px rgb(86, 188, 194);
     box-shadow: inset 0 0 4px rgb(86, 188, 194);   
@@ -35,10 +35,10 @@
 }
 
 .project-image {
-    border: 1px solid rgb(109, 109, 109);
+    border: 0px solid rgb(109, 109, 109);
     border-radius: 2px;
-    width: 210px;
-    height: 210px;
+    width: 200px;
+    height: 200px;
 }
 
 .project-info {
@@ -50,7 +50,7 @@
 }
 
 .project-title {
-    font-size: 48px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 16px;
 }
@@ -58,7 +58,7 @@
 .project-deadline {
     display: flex;
     flex-direction: row;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .title {
@@ -69,19 +69,19 @@
 .project-budget {
     display: flex;
     flex-direction: row;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .project-winner {
     display: flex;
     flex-direction: row;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .project-description-title {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: bold;
-    margin: 16px 0px;
+    margin: 14px 0px;
 }
 .project-description {
     text-align: justify;
@@ -90,7 +90,7 @@
 }
 
 .project-info-item {
-    margin-top: 8px;
+    margin-top: 4px;
     align-items: center;
 }
 
@@ -125,8 +125,9 @@
 
 .maharat-haye-lazem {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 18px;
     margin-left: 24px;
+    margin-bottom: 12px;
     text-align: right;
 }
 
@@ -247,7 +248,7 @@
     flex-direction: row;
     align-items: center;
     color: #f0222e;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 i {
@@ -266,7 +267,7 @@ i {
 
 #maharat-ha {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 18px;
     margin-left: 24px;
 }
 
@@ -333,7 +334,7 @@ i {
     margin: 0;
     padding: 0;
     max-width: unset;
-    min-height: calc(100vh - 60px - 65px - 55px)
+    min-height: calc(100vh - 60px - 65px - 50px)
 }
 
 .background-fill{
