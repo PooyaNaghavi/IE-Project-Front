@@ -15,3 +15,19 @@ body {
 .white {
     background-color: #FFFFFF;
 }
+
+.red {
+    color: #f0222e;
+}
+
+.grey {
+    color: #6c6c6c;
+}
+
+.blue {
+    color: #00858d;
+}
+
+.green {
+    color: #059142;
+}

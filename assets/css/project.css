@@ -46,28 +46,56 @@
     display: flex;
     flex-direction: column;
     padding: 40px 0px 40px 40px;
+    font-size: 24px;
 }
 
 .project-title {
     font-size: 48px;
     font-weight: bold;
+    margin-bottom: 16px;
 }
+
 .project-deadline {
-
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
 }
+
+.title {
+    font-weight: bold;
+    margin-left: 8px;
+}
+
 .project-budget {
-
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
 }
+
 .project-winner {
-
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
 }
+
 .project-description-title {
     font-size: 24px;
     font-weight: bold;
+    margin: 16px 0px;
 }
 .project-description {
     text-align: justify;
     text-indent: 24px;
+    font-size: 16px;
+}
+
+.project-info-item {
+    margin-top: 8px;
+    align-items: center;
+}
+
+.project-info-item.first {
+    margin-top: 0px;
 }
 
 #profile-pic-border {
@@ -84,10 +112,13 @@
 }
 
 
+.section-container {
+    padding: 24px 40px;
+}
+
 .skills-container {
     display: flex;
     flex-direction: column;
-    padding: 24px 40px;
     border-bottom: 2px solid #e2e2e2;
     background-color: #f9f9f9;
 }
@@ -146,33 +177,81 @@
     color: rgb(70, 120, 121);
 }
 
+.bid-status-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sabt-e-pishnahad {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
 .insert-bid-form {
     display: flex;
     justify-content: start;
     direction: rtl;
     background-color: #ffffff;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     background-color: white;
     border-radius: 8px;
     padding: 4px;
     width: 360px;
     white-space: nowrap;
+    font-size: 16px;
+}
+
+.form-input-container {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid #0199A5; */
+    box-shadow: 0 0 2px 2px #0199A5;
+    border-radius: 4px;
+    margin-left: 16px;
+    align-items: center;
+    padding: 8px;
 }
 
 .insert-bid-input {
     flex: 1 0 200px;
-    margin-left: 8px;
+    /* margin-left: 8px; */
+    border: none;
     background-color: #ffffff;
-    border: 1px solid #0199A5;
+}
+
+.form-input-text {
+    flex: 1 0 50px;
+    color: #0199A5;
 }
 
 .insert-bid-button {
     background-color: #0199A5;
     color: #FFFFFF;
     font-size: 16px;
-    padding: 10px;
+    padding: 10px 0px;
     border-radius: 6px;
-    flex: 1 0 80px;
+    border: none;
+    box-shadow: 0 0 2px 1px #0199A5;
+    flex: 1;
+}
+
+.already-bid {
+    display: flex;
+    flex-direction: row;
+    color: #059142;
+    font-size: 20px;
+}
+
+.bid-deadline-passed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #f0222e;
+    font-size: 20px;
+}
+
+i {
+    margin-left: 10px;
 }
 
 /* end */

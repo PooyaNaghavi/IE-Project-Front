@@ -13,6 +13,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/fonts.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/icons/font/flaticon.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/common.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/header.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/footer.css">
@@ -54,17 +55,25 @@
                             <div class="project-title">
                                 پروژه طراحی سایت جاب‌اونجا
                             </div>
-                            <div class="project-deadline">
-                                <!-- <i>s</i> -->
-                                مهلت تمام شده
+                            <div class="project-deadline red project-info-item first">
+                                <i class="flaticon-deadline"></i>
+                                <div class="title">مهلت تمام شده</div>
                             </div>
-                            <div class="project-budget">
-                                <!-- <i></i> -->
-                                بودجه:
+                            <!-- <div class="project-deadline grey project-info-item first">
+                                <i class="flaticon-deadline"></i>
+                                <div class="title">زمان باقی‌مانده:</div>
+                                <div class="text">۱۷ دقیقه و ۲۵ ثانیه</div>
+                            </div> -->
+                            <div class="project-budget project-info-item blue">
+                                <i class="flaticon-money-bag"></i>
+                                <div class="title">بودجه:</div>
+                                <div class="text">۲۵۰۰ تومان</div>
+
                             </div>
-                            <div class="project-winner">
-                                <!-- <i></i> -->
-                                برنده: وحید محمدی
+                            <div class="project-winner project-info-item green">
+                                <i class="flaticon-check-mark"></i>
+                                <div class="title">برنده:‌</div>
+                                <div class="text">وحید محمدی</div>
                             </div>
                             <div class="project-description-title">
                                 توضیحات
@@ -79,54 +88,46 @@
                             </div>
                         </div>
                     </div>
-                    <div class="skills-container">
-                        <div class="maharat-haye-lazem">مهارت‌های لازم:</div>
+                    <div class="skills-container section-container">
+                        <div class="maharat-haye-lazem blue">مهارت‌های لازم:</div>
                         <div class="skills-list-container">
                             <div class="skill">
-                                    <span class="skill-text">HTML</span>
-                                    <button class="skill-button endorsed" disabled><span>2</span></button>
-                                </div>
-                                <div class="skill">
-                                    <span class="skill-text">CSS</span>
-                                    <button class="skill-button endorsed" disabled><span>3</span></button>
-                                </div>
-                                <div class="skill">
-                                    <span class="skill-text">JavaScript</span>
-                                    <button class="skill-button endorsed" disabled><span>16</span></button>
-                                </div>
-                                <div class="skill">
-                                    <span class="skill-text">TypeScript</span>
-                                    <button class="skill-button endorsed" disabled><span>2</span></button>
-                                </div>
+                                <span class="skill-text">HTML</span>
+                                <button class="skill-button endorsed" disabled><span>2</span></button>
+                            </div>
+                            <div class="skill">
+                                <span class="skill-text">CSS</span>
+                                <button class="skill-button endorsed" disabled><span>3</span></button>
+                            </div>
+                            <div class="skill">
+                                <span class="skill-text">JavaScript</span>
+                                <button class="skill-button endorsed" disabled><span>16</span></button>
+                            </div>
+                            <div class="skill">
+                                <span class="skill-text">TypeScript</span>
+                                <button class="skill-button endorsed" disabled><span>2</span></button>
+                            </div>
                         </div>
 
                     </div>
-                    <div class="bid-status-container">
+                    <div class="bid-status-container section-container">
+                        <!-- <div class="sabt-e-pishnahad">ثبت پیشنهاد</div>
                         <form class="insert-bid-form" action="#" method="POST">
-                            <input class="insert-bid-input" type="text" placeholder="پیشنهاد خود را وارد کنید">
+                            <div class="form-input-container">
+                                <input class="insert-bid-input" type="text" placeholder="پیشنهاد خود را وارد کنید">
+                                <div class="form-input-text">تومان</div>
+                            </div>
                             <button class="insert-bid-button" type="submit">ارسال</button>
-                        </form>
+                        </form> -->
+                        <!-- <div class="already-bid">
+                            <i class="flaticon-check-mark"></i>
+                            <div>شما قبلا پیشنهاد خود را ثبت کرده‌اید</div>
+                        </div> -->
+                        <div class="bid-deadline-passed">
+                            <i class="flaticon-danger"></i>
+                            <div>مهلت ارسال پیشنهاد برای این پروژه به پایان رسیده است!</div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-1 dummy"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-1 dummy"></div>
-            <div class="col-10">
-                <div id="add-skill-container">
-                    <div id="maharat-ha">مهارت‌ها:</div>
-                    <form id="add-skill-form" action="#" method="POST">
-                        <select name="add-skill-select" id="add-skill-select">
-                            <option value="" selected disabled hidden>-- انتخاب مهارت‌ها --</option>
-                            <option value="a">Android</option>
-                            <option value="C++">C++</option>
-                            <option value="C">C</option>
-                            <option value="Swift">Swift</option>
-                        </select>
-                        <button type="submit" id="add-skill-button">افزودن مهارت</button>
-                    </form>
                 </div>
             </div>
             <div class="col-1 dummy"></div>
