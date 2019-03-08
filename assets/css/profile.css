@@ -8,6 +8,10 @@ body {
     overflow-x: hidden;
 }
 
+.hidden {
+    display: none !important;
+}
+
 .white {
     background-color: #FFFFFF;
 }
@@ -201,6 +205,21 @@ body {
 .skill-button.not-endorsed:hover:before {
     content: '+';
     font-size: 14px;
+}
+
+#add-skill-selector {
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+#add-skill-button {
+    background-color: #0199A5;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 6px;
 }
 
 .footer-color {
