@@ -204,7 +204,20 @@ body {
 
 .skill-button.not-endorsed:hover:before {
     content: '+';
-    font-size: 14px;
+    font-size: 16px;
+}
+
+.skill-button.deleted:hover span {
+    display: none;
+}
+
+.skill-button.deleted:hover {
+    background-color:#EF011C;
+}
+
+.skill-button.deleted:hover:before {
+    content: '-';
+    font-size: 16px;
 }
 
 #add-skill-selector {
@@ -220,6 +233,7 @@ body {
     font-size: 16px;
     padding: 10px;
     border-radius: 6px;
+    
 }
 
 .footer-color {
