@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>پروفایل</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <base href="http://127.0.0.1:8080/" />
+    <base href="http://127.0.0.1:9000/" />
 
     <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -21,7 +21,7 @@
         <div class="col-1 dummy"></div>
         <div class="col-10">
             <div id="header">
-                <div id="header-logo"><img class="logo" src="/assets/logo/logo v1.png" alt="جاب‌اونجا">
+                <div id="header-logo"><img class="logo" src="/assets/logo/logo v2.png" alt="جاب‌اونجا">
                 </div>
                 <div id="header-spacer" class="spacer"></div>
                 <div id="header-account" class="header-item">حساب کاربری</div>
@@ -33,10 +33,9 @@
     <!-- end header -->
 
     <!-- body -->
+    <div class="row blue-background">
+    </div>
     <div class="container body-container">
-
-        <div class="row blue-background">
-        </div>
         <div class="row">
             <div class="col-1 dummy"></div>
             <div class="col-10">
@@ -81,19 +80,19 @@
                 <div id="skills-container">
                     <div class="skill">
                         <span class="skill-text">HTML</span>
-                        <button class="skill-button">+</button>
+                        <button class="skill-button not-endorsed"><span>2</span></button>
                     </div>
                     <div class="skill">
                         <span class="skill-text">CSS</span>
-                        <button class="skill-button">3</button>
+                        <button class="skill-button not-endorsed"><span>3</span></button>
                     </div>
                     <div class="skill">
                         <span class="skill-text">JavaScript</span>
-                        <button class="skill-button">16</button>
+                        <button class="skill-button endorsed" disabled><span>16</span></button>
                     </div>
                     <div class="skill">
                         <span class="skill-text">TypeScript</span>
-                        <button class="skill-button">2</button>
+                        <button class="skill-button endorsed" disabled><span>2</span></button>
                     </div>
                 </div>
             </div>
@@ -102,7 +101,6 @@
 
     </div>
     <!-- end body -->
-
 
     <!-- footer -->
     <div class="row footer-color">
