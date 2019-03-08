@@ -128,25 +128,6 @@ body {
     overflow: auto;
 } */
 
-#add-skill-container {
-    display: flex;
-    justify-content: start;
-    direction: rtl;
-    height: 100%;
-    margin-bottom: 24px;
-}
-
-#maharat-ha {
-    font-weight: bold;
-    font-size: 24px;
-}
-
-#add-skill-selector {
-    display: flex;
-    justify-content: start;
-    direction: rtl;
-}
-
 #skills-container {
     display: flex;
     justify-content: start;
@@ -220,11 +201,38 @@ body {
     font-size: 16px;
 }
 
-#add-skill-selector {
+#add-skill-container {
+    display: flex;
+    justify-content: start;
+    direction: rtl;
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+#maharat-ha {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 24px;
+}
+
+#add-skill-form {
+    display: flex;
+    justify-content: start;
+    direction: rtl;
     background-color: #ffffff;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 4px;
+    width: 360px;
+    white-space: nowrap;
+}
+
+#add-skill-select {
+    flex: 1 0 200px;
+    margin-left: 8px;
+    background-color: #f9f9f9;
+    border: 1px solid #eeeeee;
 }
 
 #add-skill-button {
@@ -233,7 +241,7 @@ body {
     font-size: 16px;
     padding: 10px;
     border-radius: 6px;
-    
+    flex: 1 0 80px;
 }
 
 .footer-color {
