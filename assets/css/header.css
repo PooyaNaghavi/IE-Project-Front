@@ -1,0 +1,21 @@
+#header {
+    /* position: fixed; */
+    /* top: 0; */
+    display: flex;
+    /* height: 40px; */
+    height: 60px;
+    align-items: center;
+}
+
+.header-item {
+    padding-right: 32px;
+    font-size: 16px;
+}
+
+.logo {
+    width: 140px;
+}
+
+.spacer {
+    flex: 1;
+}

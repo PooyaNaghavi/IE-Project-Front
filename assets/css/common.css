@@ -1,0 +1,17 @@
+html * {
+    font-family: IRANSans;
+    direction: rtl;
+}
+
+body {
+    background-color: #f6f6f6;
+    overflow-x: hidden;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.white {
+    background-color: #FFFFFF;
+}
