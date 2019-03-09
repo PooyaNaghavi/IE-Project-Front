@@ -28,32 +28,24 @@
             <h1 class="register-header">ثبت‌نام</h1>
             
             <fieldset>
-              <legend><span class="number">۱ </span> اطلاعات پایه </legend>
-              <label>نام:</label>
+              <legend class="header-name"><span class="number">۱ </span> اطلاعات پایه </legend>
+             
               <input class="box-style" type="text" id="firstname" name="user_firstname" placeholder="نام">
-
-              <label>نام خانوادگی:</label>
               <input class="box-style" type="text" id="lastname" name="user_lastname" placeholder="نام خانوادگی">
-
-              <label>نام کاربری:</label>
               <input class="box-style" type="text" id="username" name="user_username" placeholder="نام کابردی">
-
-              <label>رمز عبور:</label>
               <input class="box-style" type="password" id="password" name="user_password" placeholder="کلمه‌ی عبور">
-            </fieldset>
-    
-            <fieldset>
-              <legend><span class="number">۲</span> پروفایل </legend>
-              <label>بیو:</label>
-              <textarea class="box-style bio-box-style" id="bio" name="user_bio"></textarea>
+              <input class="box-style" type="password" id="dupPassword" name="user_dupPassword" placeholder="تکرار کلمه‌ی عبور">
             </fieldset>
 
             <fieldset>
-                <label>عنوان شغلی:</label>
+                <legend class="header-name" ><span class="number">۲</span> پروفایل </legend>
+                
                 <input class="box-style" type="text" id="jobTitle" name="user_jobTitle" placeholder="عنوان شغلی">
-
-                <label>لینک عکس پروفایل:</label>
                 <input class="box-style" type="text" id="profileUrl" name="user_profileUrl" placeholder="لینک عکس پروفایل"> 
+                <textarea class="box-style bio-box-style" id="bio" name="user_bio" placeholder="بیو"></textarea>
+            </fieldset>
+
+            <fieldset>
             </fieldset>
             <button class="button" type="submit">ثبت‌نام</button>
           </form>
