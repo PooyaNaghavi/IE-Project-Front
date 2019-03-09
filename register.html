@@ -24,44 +24,38 @@
             <div class="slide slide-number"></div>
         </div>
     </div>
-    <form class="register-form" action="index.html" method="post">
-            <h1 class="header">ثبت‌نام</h1>
+    <form class="register-form" action="index.html" method="POST">
+            <h1 class="register-header">ثبت‌نام</h1>
             
             <fieldset>
               <legend><span class="number">۱ </span> اطلاعات پایه </legend>
-              <label for="firstname">نام:</label>
+              <label>نام:</label>
               <input class="box-style" type="text" id="firstname" name="user_firstname" placeholder="نام">
 
-              <label for="lastname">نام خانوادگی:</label>
+              <label>نام خانوادگی:</label>
               <input class="box-style" type="text" id="lastname" name="user_lastname" placeholder="نام خانوادگی">
-              
+
+              <label>نام کاربری:</label>
+              <input class="box-style" type="text" id="username" name="user_username" placeholder="نام کابردی">
+
+              <label>رمز عبور:</label>
+              <input class="box-style" type="password" id="password" name="user_password" placeholder="کلمه‌ی عبور">
             </fieldset>
     
             <fieldset>
               <legend><span class="number">۲</span> پروفایل </legend>
-              <label for="bio">بیو:</label>
-              <textarea class="box-style" id="bio" name="user_bio"></textarea>
+              <label>بیو:</label>
+              <textarea class="box-style bio-box-style" id="bio" name="user_bio"></textarea>
             </fieldset>
 
             <fieldset>
-            <label for="skills">مهارت‌ها:</label>
-            <select class="box-style" id="skills" name="user_skills">
-                <option value="php">PHP</option>
-                <option value="python">Python</option>
-                <option value="rails"> Rails</option>
-                <option value="WordPress">WordPress</option>
-            </select>
+                <label>عنوان شغلی:</label>
+                <input class="box-style" type="text" id="jobTitle" name="user_jobTitle" placeholder="عنوان شغلی">
+
+                <label>لینک عکس پروفایل:</label>
+                <input class="box-style" type="text" id="profileUrl" name="user_profileUrl" placeholder="لینک عکس پروفایل"> 
             </fieldset>
-            <fieldset>
-                    <label for="job">شغل:</label>
-                    <select class="box-style" id="job" name="user_job">
-                        <option value="bikar">بیکار</option>
-                        <option value="bakar">باکار</option>
-                        <option value="web">وب</option>
-                    </select>
-                    </fieldset>
             <button class="button" type="submit">ثبت‌نام</button>
           </form>
-          
 </body>
 </html>
