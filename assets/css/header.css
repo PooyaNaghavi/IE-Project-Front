@@ -5,6 +5,7 @@
     /* height: 40px; */
     height: 60px;
     align-items: center;
+    max-width: unset;
 }
 
 .header-item {
