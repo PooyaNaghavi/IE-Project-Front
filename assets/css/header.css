@@ -5,6 +5,7 @@
     flex-direction: row;
     /* height: 40px; */
     align-items: center;
+    max-width: unset;
 }
 
 .header-item {

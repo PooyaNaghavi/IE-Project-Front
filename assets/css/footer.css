@@ -3,6 +3,7 @@
     -moz-box-shadow: inset 0 0 4px #1a1a1a;
     -webkit-box-shadow: inset 0 0 4px #1a1a1a;
     box-shadow: inset 0 0 4px #1a1a1a;
+    max-width: unset;
 }
 
 #footer {
